@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "git": "^0.1.5",
+    "playwright": "^1.27.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  },
+  "scripts": {}
+}
