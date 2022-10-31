@@ -50,12 +50,14 @@ yarn dev
 > If you want to change the default ports, you can do so by modifying `PORT` and `REACT_APP_BACKEND_PORT` variables in `.env` file.
 > However, make sure the modified port numbers in `.env` are not committed into Git since the CI environments still expect the application to run on the default ports.
 
-### Start Playwright
+### Start Playwright (If it is not set up globally yet)
 
 ```shell
 cd Playwright\ example\ test
 npm init playwright@latest
 ```
+
+There are two folders inside Playwright test directory. These are e2e where all the tests are gathered and sampleData where selectors and functions are located.
 
 > 🚩 **Note**
 > This project is for sheer purpose of presenting Playwright possibilities. The application code was eddited slighlty for tuning up the performance.
