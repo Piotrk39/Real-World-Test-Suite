@@ -41,7 +41,7 @@
       "phoneNumber": "072-208-4283",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/bDjUb4ir5O.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 171867,
+      "balance": 164867,
       "createdAt": "2019-09-15T04:44:05.536Z",
       "modifiedAt": "2020-05-21T18:25:10.341Z"
     },
@@ -74,41 +74,6 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
-    },
-    {
-      "id": "kKRj6nSuO",
-      "uuid": "613306b2-fa18-4707-b3ca-354be2e4b97a",
-      "firstName": "Bob",
-      "lastName": "Ross",
-      "username": "PainterJoy90",
-      "password": "$2a$10$YABj6DxPe1dvSMTFiLRr.e221BhRnk954MOeTBp8z5ZnQnnyb8uL.",
-      "email": "bob.ross@gmail.com",
-      "phoneNumber": "000308954652137",
-      "balance": 0,
-      "createdAt": "2022-10-31T10:29:39.438Z",
-      "modifiedAt": "2022-10-31T10:29:39.438Z"
-    },
-    {
-      "id": "kvPb-U6Ga",
-      "uuid": "e0cc89ec-6138-4bea-90f2-3f611da9d7e1",
-      "firstName": "Bob",
-      "lastName": "Ross",
-      "username": "PainterJoy90",
-      "password": "$2a$10$95PtCGcKPH1xO4sc7s4JRe67z4CiHr4lIy5vrHhcQA9xuLEFrb7za",
-      "balance": 0,
-      "createdAt": "2022-10-31T10:30:11.901Z",
-      "modifiedAt": "2022-10-31T10:30:11.901Z"
-    },
-    {
-      "id": "ZegQF4BU8",
-      "uuid": "786f3595-fd1d-4ec9-a6df-d9af6ec1562e",
-      "firstName": "Bob",
-      "lastName": "Ross",
-      "username": "PainterJoy90",
-      "password": "$2a$10$mHhrs2VS6ViJz0fYv7riMuqYp8qkTXigt2qO.RN3On/zj08jJsrd2",
-      "balance": 0,
-      "createdAt": "2022-10-31T10:31:35.597Z",
-      "modifiedAt": "2022-10-31T10:31:35.597Z"
     }
   ],
   "contacts": [
@@ -288,39 +253,6 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
-    },
-    {
-      "id": "RYK33G27t",
-      "uuid": "c4ff2267-22f3-41e8-ab2c-757564d0469b",
-      "userId": "kKRj6nSuO",
-      "bankName": "The Best Bank",
-      "accountNumber": "123456789",
-      "routingNumber": "987654321",
-      "isDeleted": true,
-      "createdAt": "2022-10-31T10:29:41.072Z",
-      "modifiedAt": "2022-10-31T10:29:41.072Z"
-    },
-    {
-      "id": "jmVJcv9BK",
-      "uuid": "1652409e-8b27-46e6-aac4-238112af0104",
-      "userId": "kKRj6nSuO",
-      "bankName": "Bobs Bank",
-      "accountNumber": "123456789",
-      "routingNumber": "987654321",
-      "isDeleted": true,
-      "createdAt": "2022-10-31T10:30:08.283Z",
-      "modifiedAt": "2022-10-31T10:30:08.283Z"
-    },
-    {
-      "id": "5Kt5HghPY",
-      "uuid": "d1036f3f-10f8-4431-a6a0-c8533b84730d",
-      "userId": "kKRj6nSuO",
-      "bankName": "Bobs Bank",
-      "accountNumber": "123456789",
-      "routingNumber": "987654321",
-      "isDeleted": false,
-      "createdAt": "2022-10-31T10:31:32.580Z",
-      "modifiedAt": "2022-10-31T10:31:32.580Z"
     }
   ],
   "transactions": [
@@ -9923,52 +9855,6 @@
       "requestResolvedAt": "",
       "createdAt": "2019-06-27T22:24:04.794Z",
       "modifiedAt": "2020-05-21T04:58:44.494Z"
-    },
-    {
-      "id": "uSUTI4P4k",
-      "uuid": "0fdce542-4eab-430b-a84f-00eabae37bf1",
-      "amount": 3500,
-      "description": "I pay you pay we all pay",
-      "receiverId": "bDjUb4ir5O",
-      "senderId": "kKRj6nSuO",
-      "status": "complete",
-      "createdAt": "2022-10-31T10:30:16.949Z",
-      "modifiedAt": "2022-10-31T10:30:16.949Z"
-    },
-    {
-      "id": "TjlnGf-pZ",
-      "uuid": "f3db705a-53dd-4ad1-beed-40a8fa805897",
-      "amount": 12000,
-      "description": "Sushi was great payback is better",
-      "receiverId": "tsHF6_D5oQ",
-      "senderId": "kKRj6nSuO",
-      "status": "pending",
-      "requestStatus": "pending",
-      "createdAt": "2022-10-31T10:30:25.719Z",
-      "modifiedAt": "2022-10-31T10:30:25.719Z"
-    },
-    {
-      "id": "8Ngr2zN1M",
-      "uuid": "50fee771-e753-440d-b525-bdfa54c03d9c",
-      "amount": 3500,
-      "description": "I pay you pay we all pay",
-      "receiverId": "bDjUb4ir5O",
-      "senderId": "kKRj6nSuO",
-      "status": "complete",
-      "createdAt": "2022-10-31T10:31:39.832Z",
-      "modifiedAt": "2022-10-31T10:31:39.832Z"
-    },
-    {
-      "id": "ph5XU-ijH",
-      "uuid": "9eeab5d9-8194-44cb-838e-37216ef039a2",
-      "amount": 12000,
-      "description": "Sushi was great payback is better",
-      "receiverId": "tsHF6_D5oQ",
-      "senderId": "kKRj6nSuO",
-      "status": "pending",
-      "requestStatus": "pending",
-      "createdAt": "2022-10-31T10:31:41.490Z",
-      "modifiedAt": "2022-10-31T10:31:41.490Z"
     }
   ],
   "likes": [
@@ -10051,38 +9937,6 @@
       "transactionId": "SXHgQh46s7A",
       "createdAt": "2020-05-07T03:37:29.711Z",
       "modifiedAt": "2020-05-21T02:32:06.555Z"
-    },
-    {
-      "id": "wBYAEbcSQ",
-      "uuid": "83763fe0-decb-490d-b33b-fc17f258054c",
-      "userId": "kKRj6nSuO",
-      "transactionId": "uSUTI4P4k",
-      "createdAt": "2022-10-31T10:30:29.726Z",
-      "modifiedAt": "2022-10-31T10:30:29.726Z"
-    },
-    {
-      "id": "IBgsXctJd",
-      "uuid": "33d49dd4-30b8-4114-bac5-1834cfe2a5a0",
-      "userId": "kKRj6nSuO",
-      "transactionId": "TjlnGf-pZ",
-      "createdAt": "2022-10-31T10:30:34.638Z",
-      "modifiedAt": "2022-10-31T10:30:34.638Z"
-    },
-    {
-      "id": "Vpfxva3EB",
-      "uuid": "b0b1e152-5cc0-4bf0-bf0a-bede955e699c",
-      "userId": "kKRj6nSuO",
-      "transactionId": "8Ngr2zN1M",
-      "createdAt": "2022-10-31T10:31:53.549Z",
-      "modifiedAt": "2022-10-31T10:31:53.549Z"
-    },
-    {
-      "id": "L3-tI4Wq6",
-      "uuid": "13dec7a6-76f8-4fee-913a-2c6e18113e07",
-      "userId": "kKRj6nSuO",
-      "transactionId": "ph5XU-ijH",
-      "createdAt": "2022-10-31T10:31:54.588Z",
-      "modifiedAt": "2022-10-31T10:31:54.588Z"
     }
   ],
   "comments": [
@@ -10175,42 +10029,6 @@
       "transactionId": "2BHqb4lfWmiA",
       "createdAt": "2019-11-07T07:03:42.068Z",
       "modifiedAt": "2020-05-21T06:06:10.434Z"
-    },
-    {
-      "id": "ZqI6i7P41",
-      "uuid": "1f1d183c-579f-4610-a0de-f577cb844217",
-      "content": "I paied here",
-      "userId": "kKRj6nSuO",
-      "transactionId": "uSUTI4P4k",
-      "createdAt": "2022-10-31T10:30:30.166Z",
-      "modifiedAt": "2022-10-31T10:30:30.166Z"
-    },
-    {
-      "id": "d_ZEiIe3Kf",
-      "uuid": "ed674b96-162f-4648-ab6e-b97e1a7f7375",
-      "content": "I paied here",
-      "userId": "kKRj6nSuO",
-      "transactionId": "TjlnGf-pZ",
-      "createdAt": "2022-10-31T10:30:34.887Z",
-      "modifiedAt": "2022-10-31T10:30:34.887Z"
-    },
-    {
-      "id": "koQa7Cugyl",
-      "uuid": "566a6ddf-58fe-416f-af99-0ca3f326fa75",
-      "content": "I paied here",
-      "userId": "kKRj6nSuO",
-      "transactionId": "8Ngr2zN1M",
-      "createdAt": "2022-10-31T10:31:53.898Z",
-      "modifiedAt": "2022-10-31T10:31:53.898Z"
-    },
-    {
-      "id": "5RRWwu6A0",
-      "uuid": "51e77e52-a12f-4998-868c-7bda53ffe4ce",
-      "content": "I paied here",
-      "userId": "kKRj6nSuO",
-      "transactionId": "ph5XU-ijH",
-      "createdAt": "2022-10-31T10:31:55.185Z",
-      "modifiedAt": "2022-10-31T10:31:55.185Z"
     }
   ],
   "notifications": [
@@ -10613,206 +10431,6 @@
       "isRead": false,
       "createdAt": "2019-10-19T20:50:49.292Z",
       "modifiedAt": "2020-05-21T21:00:50.192Z"
-    },
-    {
-      "id": "V2_iM3FlkU",
-      "uuid": "e7917743-a8c5-4cf8-a720-6a25db6ca391",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "uSUTI4P4k",
-      "status": "received",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:16.999Z",
-      "modifiedAt": "2022-10-31T10:30:16.999Z"
-    },
-    {
-      "id": "WZsutd6gBe",
-      "uuid": "1695e4b0-761c-49ce-b817-7c99e4b22a98",
-      "userId": "tsHF6_D5oQ",
-      "transactionId": "TjlnGf-pZ",
-      "status": "requested",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:25.722Z",
-      "modifiedAt": "2022-10-31T10:30:25.722Z"
-    },
-    {
-      "id": "ykRpiwTsKa",
-      "uuid": "11cb8013-e4ff-4cfa-bd13-751d3b6d67a1",
-      "userId": "kKRj6nSuO",
-      "transactionId": "uSUTI4P4k",
-      "likeId": "wBYAEbcSQ",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:29.729Z",
-      "modifiedAt": "2022-10-31T10:30:29.729Z"
-    },
-    {
-      "id": "zDUDdwGkjM",
-      "uuid": "3f585cf4-0c55-4a54-ac7b-eba9c2c1738d",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "uSUTI4P4k",
-      "likeId": "wBYAEbcSQ",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:29.739Z",
-      "modifiedAt": "2022-10-31T10:30:29.739Z"
-    },
-    {
-      "id": "jwhu9uw2rN",
-      "uuid": "7f7adda1-f6c3-450a-8a09-8ff089beadef",
-      "userId": "kKRj6nSuO",
-      "transactionId": "uSUTI4P4k",
-      "commentId": "ZqI6i7P41",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:30.169Z",
-      "modifiedAt": "2022-10-31T10:30:30.169Z"
-    },
-    {
-      "id": "4BJgdgWqAb",
-      "uuid": "74c65bf5-d510-491f-8cde-9809d10dbbb4",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "uSUTI4P4k",
-      "commentId": "ZqI6i7P41",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:30.180Z",
-      "modifiedAt": "2022-10-31T10:30:30.180Z"
-    },
-    {
-      "id": "5ED-Qualhd",
-      "uuid": "541ec394-ba57-495a-9ebb-e9e28b7db4fd",
-      "userId": "kKRj6nSuO",
-      "transactionId": "TjlnGf-pZ",
-      "likeId": "IBgsXctJd",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:34.641Z",
-      "modifiedAt": "2022-10-31T10:30:34.641Z"
-    },
-    {
-      "id": "UCmGQ7jGxp",
-      "uuid": "7ea52671-c816-4669-8dad-06d9244fc9e6",
-      "userId": "tsHF6_D5oQ",
-      "transactionId": "TjlnGf-pZ",
-      "likeId": "IBgsXctJd",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:34.652Z",
-      "modifiedAt": "2022-10-31T10:30:34.652Z"
-    },
-    {
-      "id": "khWRRQ7PDz",
-      "uuid": "ed82ad9e-d0e7-4171-9bea-9f3779474ae5",
-      "userId": "kKRj6nSuO",
-      "transactionId": "TjlnGf-pZ",
-      "commentId": "d_ZEiIe3Kf",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:34.891Z",
-      "modifiedAt": "2022-10-31T10:30:34.891Z"
-    },
-    {
-      "id": "RsM-pIqfiJ",
-      "uuid": "70e18302-8b34-4d01-a35d-b236204bae92",
-      "userId": "tsHF6_D5oQ",
-      "transactionId": "TjlnGf-pZ",
-      "commentId": "d_ZEiIe3Kf",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:30:34.902Z",
-      "modifiedAt": "2022-10-31T10:30:34.902Z"
-    },
-    {
-      "id": "TNwC0CM_At",
-      "uuid": "001f6d79-9854-4e76-885f-191dd70368a7",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "8Ngr2zN1M",
-      "status": "received",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:39.875Z",
-      "modifiedAt": "2022-10-31T10:31:39.875Z"
-    },
-    {
-      "id": "kgCHpzyopv",
-      "uuid": "392ace20-7608-4685-aa50-152e9f5a601a",
-      "userId": "tsHF6_D5oQ",
-      "transactionId": "ph5XU-ijH",
-      "status": "requested",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:41.493Z",
-      "modifiedAt": "2022-10-31T10:31:41.493Z"
-    },
-    {
-      "id": "76qPnaWULO",
-      "uuid": "e973cc60-2137-4a61-9dbe-8b27ee683f6d",
-      "userId": "kKRj6nSuO",
-      "transactionId": "8Ngr2zN1M",
-      "likeId": "Vpfxva3EB",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:53.553Z",
-      "modifiedAt": "2022-10-31T10:31:53.553Z"
-    },
-    {
-      "id": "sTAK0OPjxy",
-      "uuid": "5f6388c8-6475-4d0e-9c15-ea0ffcbf8255",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "8Ngr2zN1M",
-      "likeId": "Vpfxva3EB",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:53.563Z",
-      "modifiedAt": "2022-10-31T10:31:53.563Z"
-    },
-    {
-      "id": "XrowNPyZp4",
-      "uuid": "01692f28-7426-4744-8099-42095360adb3",
-      "userId": "kKRj6nSuO",
-      "transactionId": "8Ngr2zN1M",
-      "commentId": "koQa7Cugyl",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:53.902Z",
-      "modifiedAt": "2022-10-31T10:31:53.902Z"
-    },
-    {
-      "id": "dTgMgwEvPl",
-      "uuid": "8e08dcbc-04b5-4387-94aa-1aeb6486aa80",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "8Ngr2zN1M",
-      "commentId": "koQa7Cugyl",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:53.913Z",
-      "modifiedAt": "2022-10-31T10:31:53.913Z"
-    },
-    {
-      "id": "QPbCqNRBgw",
-      "uuid": "a9361308-6c2d-4cdb-80ba-81cb1e10122b",
-      "userId": "kKRj6nSuO",
-      "transactionId": "ph5XU-ijH",
-      "likeId": "L3-tI4Wq6",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:54.591Z",
-      "modifiedAt": "2022-10-31T10:31:54.591Z"
-    },
-    {
-      "id": "20D_H_CggJ",
-      "uuid": "48d5620e-cfcf-4db7-a423-9eaa46bbc7bb",
-      "userId": "tsHF6_D5oQ",
-      "transactionId": "ph5XU-ijH",
-      "likeId": "L3-tI4Wq6",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:54.602Z",
-      "modifiedAt": "2022-10-31T10:31:54.602Z"
-    },
-    {
-      "id": "Y3HK9UD9dQ",
-      "uuid": "104488e8-1079-4535-ac78-a91619539bae",
-      "userId": "kKRj6nSuO",
-      "transactionId": "ph5XU-ijH",
-      "commentId": "5RRWwu6A0",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:55.189Z",
-      "modifiedAt": "2022-10-31T10:31:55.189Z"
-    },
-    {
-      "id": "jslpwGt7rF",
-      "uuid": "65668f99-e789-4947-80f8-14c0f9fd8e91",
-      "userId": "tsHF6_D5oQ",
-      "transactionId": "ph5XU-ijH",
-      "commentId": "5RRWwu6A0",
-      "isRead": false,
-      "createdAt": "2022-10-31T10:31:55.203Z",
-      "modifiedAt": "2022-10-31T10:31:55.203Z"
     }
   ],
   "banktransfers": [
@@ -11365,26 +10983,6 @@
       "transactionId": "jtdpSmWcsJxk",
       "createdAt": "2019-10-10T05:09:20.517Z",
       "modifiedAt": "2020-05-21T12:24:00.749Z"
-    },
-    {
-      "id": "FMFfgdCUdf",
-      "uuid": "c088aee6-f793-410b-a4e3-38eaec3a5400",
-      "userId": "kKRj6nSuO",
-      "amount": 3500,
-      "transactionId": "uSUTI4P4k",
-      "type": "withdrawal",
-      "createdAt": "2022-10-31T10:30:16.959Z",
-      "modifiedAt": "2022-10-31T10:30:16.959Z"
-    },
-    {
-      "id": "OyNkU9Nb8z",
-      "uuid": "d1e46b9d-4702-4e62-a74a-952b4bb40098",
-      "userId": "kKRj6nSuO",
-      "amount": 3500,
-      "transactionId": "8Ngr2zN1M",
-      "type": "withdrawal",
-      "createdAt": "2022-10-31T10:31:39.834Z",
-      "modifiedAt": "2022-10-31T10:31:39.834Z"
     }
   ]
 }

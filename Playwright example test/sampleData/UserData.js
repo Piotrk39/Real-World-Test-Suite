@@ -59,7 +59,8 @@ export default class sampleUserData {
         }
         await expect(this.errEmail).toHaveText('Enter an email address');
         //trigger phone input error
-        await this.phoneNumber.click()
+        // await this.phoneNumber.click()
+        await this.phoneNumber.click({ clickCount: 2, delay: 100 });
         for (const element of userData.phone) {
             await this.phoneNumber.press('Backspace');
         }
@@ -126,7 +127,7 @@ export default class sampleUserData {
         }
         await this.email.type(userData.email);
         //Update Phone
-        await this.phoneNumber.click()
+        await this.phoneNumber.click();
         for (const element of userData.upPhone) {
             await this.phoneNumber.press('Backspace');
         }
