@@ -59,6 +59,19 @@ npm init playwright@latest
 
 There are two folders inside Playwright test directory. These are e2e where all the tests are gathered and sampleData where selectors and functions are located.
 
+### Run test via console
+
+```shell
+cd Playwright\ example\ test
+npm run regression
+
+or
+
+npm run test
+```
+
+Run regression "script" just after starting the enviroment of the application to initialize test enviroment. Next you can run test "script" to run all the other tests from Test Suite.
+
 > 🚩 **Note**
 > This project is for sheer purpose of presenting Playwright possibilities. The application code was eddited slighlty for tuning up the performance.
 > All credits are for  <strong>Great</strong> <a href="https://github.com/cypress-io/cypress-realworld-app">Cypress Team</a>
