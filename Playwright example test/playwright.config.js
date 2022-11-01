@@ -45,6 +45,11 @@ const config = {
 
     /*Screenshot only on failure */ 
     screenshot: 'only-on-failure',
+
+    /*Define the speed the tests should run on 120 it crashes */
+    launchOptions: {
+      slowMo: 100,
+    },
   },
 
   /* Configure projects for major browsers */
