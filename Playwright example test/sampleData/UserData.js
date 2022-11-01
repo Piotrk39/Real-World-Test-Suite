@@ -41,7 +41,7 @@ export default class sampleUserData {
 
     async forceErrors() {
         //trigger name input error
-        await this.name.click()
+        await this.name.click({ clickCount: 2, delay: 100 });
         for (const element of userData.name) {
             await this.name.press('Backspace');
         }

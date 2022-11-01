@@ -8,6 +8,6 @@
   },
   "scripts": {
     "regression": "npx playwright test LoginTestRegression.spec.js",
-    "test": "npx playwright test e2e/LoginTestSmoke.spec.js e2e/BankAccounts e2e/NewTransaction e2e/TransactionOptions e2e/UserSettings"
+    "test": "npx playwright test e2e/LoginTestSmoke.spec.js e2e/BankAccounts e2e/NewTransaction e2e/TransactionOptions e2e/UserSettings --headed"
   }
 }
