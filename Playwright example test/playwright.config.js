@@ -49,6 +49,8 @@ const config = {
     /*Define the speed the tests should run on 120 it crashes */
     launchOptions: {
       slowMo: 100,
+      downloadsPath: './resources/downloads',
+      args: ['--start-maximized']
     },
   },
 
